@@ -26,6 +26,7 @@
   font-weight: 400;
   line-height: 32px;
   margin-bottom: 40px;
+  width: 400px;
 }
 /* Header styles */
 
@@ -210,6 +211,7 @@ main section {
   max-width: 1320px;
   margin: 0 auto;
   text-align: justify;
+  margin-bottom: 165px;
 }
 .coming-soon-info {
   /* width: 800px; */
@@ -240,7 +242,48 @@ main section {
 .coming-soon-year-title {
   color: #f00;
   font-family: Inter;
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 700;
   margin-bottom: 16px;
+}
+/* Holidays Sale styles */
+.holidays-sale{
+  width: 82%;
+  max-width: 1320px;
+ 
+  /* background-color: #f00; */
+  margin: 0 auto;
+  margin-bottom: 130px;
+}
+.holidays-item{
+ 
+ 
+}
+.holidays-subtitle{
+  color: #070211;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+margin-bottom: 16px;
+}
+.holidays-title{
+  color: #F00;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 28px;
+ 
+}
+.holidays-description{
+  width: 1068px;
+  text-align: center;
+  color: rgba(7, 2, 17, 0.60);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+ margin-left: 80px;
+  font-weight: 500;
+  line-height: 32px;
+
 }
