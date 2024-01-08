@@ -143,7 +143,7 @@ main section {
   text-align: justify;
   margin-bottom: 35px;
 }
-.btn{
+.btn {
   border-radius: 8px;
   background: #f00;
   border: none;
@@ -247,43 +247,85 @@ main section {
   margin-bottom: 16px;
 }
 /* Holidays Sale styles */
-.holidays-sale{
+.holidays-sale {
   width: 82%;
   max-width: 1320px;
- 
+
   /* background-color: #f00; */
   margin: 0 auto;
   margin-bottom: 130px;
 }
-.holidays-item{
- 
- 
+.holidays-item {
 }
-.holidays-subtitle{
+.holidays-subtitle {
   color: #070211;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-margin-bottom: 16px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
 }
-.holidays-title{
-  color: #F00;
+.holidays-title {
+  color: #f00;
   text-align: center;
   font-family: Merriweather;
   font-size: 72px;
   font-weight: 900;
   margin-bottom: 28px;
- 
 }
-.holidays-description{
+.holidays-description {
   width: 1068px;
   text-align: center;
-  color: rgba(7, 2, 17, 0.60);
+  color: rgba(7, 2, 17, 0.6);
   text-align: center;
   font-family: Inter;
   font-size: 20px;
- margin-left: 80px;
+  margin-left: 80px;
   font-weight: 500;
   line-height: 32px;
-
 }
+.holidays-image-section {
+  display: flex;
+}
+.bg-image {
+  width: 80%;
+  max-width: 1320px;
+  background-image: url("../resources/Rectangle\ 2.png");
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+/* Our-awesome-portfolio styles */
+.our-awesome-portfolio {
+  width: 82%;
+  max-width: 1320px;
+  text-align: left;
+  padding: 140px;
+  margin: 0 auto;
+}
+.portfolio-text-subtitle {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.portfolio-text-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+.portfolio-text-description {
+  width: 900px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+.awesome-portfolio-image-item-1st {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+
