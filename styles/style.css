@@ -420,6 +420,7 @@ input {
   font-family: Inter;
   font-size: 20px;
   font-weight: 500;
+  line-height: 30px;
 }
 .social-link {
   /* display: block; */
