@@ -382,8 +382,14 @@ main section {
 .awesome-portfolio-image-item-1st {
   display: flex;
   flex-direction: row;
-  gap: 25px;
+  gap: 5px;
   margin-bottom: 24px;
+ 
+}
+.image-item-1st .image-item-2nd .image-item-3rd{
+  width: 400px;
+height: 400px;
+margin-right: 55px;
 }
 
 /* Subscribe Newsletter styles */
