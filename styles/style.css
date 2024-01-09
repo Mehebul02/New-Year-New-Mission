@@ -316,67 +316,33 @@ main section {
 .holidays-image-section {
   max-width: 1320px;
   width: 80%;
-  height: 300px;
+  height: 340px;
   height: 100vh;
   margin: 0 auto;
-  background-image: url("../resources/Rectangle\ 2.png");
-  background-position: center bottom;
+  background-image: url("../resources/Rectangle\ 2.png"), url("../resources/Rectangle\ 1.png");
+  background-position: center bottom, right top;
   background-repeat: no-repeat;
   justify-content: center;
-
-
 
 }
 
 .holidays-image-item {
   display: flex;
-  
+  gap: 90px;
   justify-content: center;
 
 }
-.img-1st{
-  height: 380px;
-  margin-top: 120px  ;
+
+.img-1st {
+  height: 450px;
+  margin-top: 100px;
 
 }
 
-.img-3rd{
-  width: 450px;
-height: 433px;
-  background-image: url("../resources/Rectangle\ 1.png");
-  background-repeat: no-repeat;
-  
-  background-position: center bottom;
-  margin: 34px  ;
-}
-.img-2nd img{
-margin-left: 70%;
+.img-2nd img {
+  margin-right: 250px;
 }
 
-/* .holidays-image-section{
- display: inline-block;
-  justify-content: space-around;
-  align-items: center;
-  height: 510px;
-  width: 80%;
-  max-width: 1320px;
-  margin: 0 auto;
-  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
-    url("../resources/banner/Vectorrr.png");
-
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-bottom: 120px;
-} */
-
-
-/* .bg-image {
-  width: 80%;
-  max-width: 1320px;
-  background-image: url("../resources/Rectangle\ 2.png");
-  background-repeat: no-repeat;
-  margin: 0 auto;
-} */
 
 /* Our-awesome-portfolio styles */
 .our-awesome-portfolio {
