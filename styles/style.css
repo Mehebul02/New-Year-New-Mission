@@ -1,11 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Merriweather:wght@300;400;700;900&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Merriweather:wght@300;400;700;900&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
-
 * {
   margin: 0;
   padding: 0;
-}
+}  
 
 /* Common Styles */
 .btn-primary {
@@ -364,6 +363,7 @@ main section {
   font-size: 20px;
   font-weight: 400;
 }
+
 input {
   padding: 15px;
   align-items: center;
@@ -392,24 +392,37 @@ input {
   font-size: 18px;
   font-weight: 400;
   border: none;
-}
+} 
 /* footer section styles */
+.footer-container{
+ background-color: #070211;
+  
+}
+
+/* .footer-info{
+  display: flex;
+  align-items: center;
+  gap: 250px;
+  justify-content: space-between;
+} */
 .footer-item{
   display: flex;
   align-items: center;
+  justify-content: space-around;
+  padding: 100px;
   gap: 250px;
-  justify-content: space-between;
-  background: #070211;
-  padding: 120px;
-  margin-bottom: 40px;
+ 
+
+  
 }
-.footer-info{
+/* .footer-info{
   display: flex;
   align-items: center;
   gap: 250px;
   justify-content: space-between;
-}
-.footer-title{
+}  */ 
+
+ .footer-title{
   color: #FFF;
 font-family: Inter;
 font-size: 24px;
@@ -420,13 +433,17 @@ width: 500px;
 .footer-primary{
   color: #FFF;
 font-family: Inter;
-font-size: 24px;
-
+font-size: 20px;
 font-weight: 500;
 
 
+} 
+.social-link{
+  /* display: block; */
+  text-align: center;
 }
 hr{
-  width: 580px;
-  background: rgba(255, 255, 255, 0.15);
-}
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 48px;
+} 
