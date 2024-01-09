@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Merriweather:wght@300;400;700;900&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -19,6 +20,7 @@
   text-transform: uppercase;
   cursor: pointer;
 }
+
 .description-primary {
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
@@ -28,6 +30,7 @@
   margin-bottom: 40px;
   width: 400px;
 }
+
 /* Header styles */
 
 .header-banner-container {
@@ -47,9 +50,11 @@
   border-radius: 16px;
   margin-bottom: 120px;
 }
+
 .header-item {
   width: 550px;
 }
+
 .header-item-title_1 {
   color: #fff;
   text-align: center;
@@ -59,6 +64,7 @@
   font-weight: 400;
   margin-bottom: 15px;
 }
+
 .header-item-title_2 {
   color: #fff;
   text-align: center;
@@ -67,13 +73,16 @@
   font-style: normal;
   font-weight: 900;
 }
+
 /* Main section styles */
 main section {
   text-align: center;
 }
+
 .off-container {
   margin-bottom: 120px;
 }
+
 .off-heading {
   color: #f00;
   text-align: center;
@@ -83,6 +92,7 @@ main section {
   font-weight: 700;
   margin-bottom: 48px;
 }
+
 .off-sub-title {
   color: #f00;
   text-align: center;
@@ -91,6 +101,7 @@ main section {
   font-weight: 500;
   margin-bottom: 10px;
 }
+
 .off-title {
   color: #070211;
   text-align: center;
@@ -99,9 +110,11 @@ main section {
   font-weight: 700;
   margin-bottom: 48px;
 }
+
 .off-item img {
   max-width: 802px;
 }
+
 /* Banner Section styles */
 .banner-section {
   display: flex;
@@ -118,10 +131,12 @@ main section {
   background-position: center;
   margin-bottom: 120px;
 }
+
 .banner-info {
   width: 620px;
   margin-right: 38px;
 }
+
 .banner-title {
   text-align: justify;
   color: #fff;
@@ -133,6 +148,7 @@ main section {
   letter-spacing: 7.04px;
   margin-bottom: 14px;
 }
+
 .banner-description {
   color: rgba(255, 255, 255, 0.8);
   font-family: Inter;
@@ -143,6 +159,7 @@ main section {
   text-align: justify;
   margin-bottom: 35px;
 }
+
 .btn {
   border-radius: 8px;
   background: #f00;
@@ -156,6 +173,7 @@ main section {
   margin-right: 450px;
   cursor: pointer;
 }
+
 .image-section img {
   width: 260px;
 }
@@ -168,17 +186,17 @@ main section {
   margin: 0 auto;
   text-align: center;
 
-  background: linear-gradient(
-    180deg,
-    rgba(255, 0, 0, 0.1) 0%,
-    rgba(255, 0, 0, 0) 100%
-  );
+  background: linear-gradient(180deg,
+      rgba(255, 0, 0, 0.1) 0%,
+      rgba(255, 0, 0, 0) 100%);
   margin-bottom: 120px;
 }
+
 .address-info {
   padding: 70px;
   margin-bottom: 48px;
 }
+
 .address-place,
 .address-date {
   color: #070211;
@@ -189,6 +207,7 @@ main section {
   line-height: 56px;
   text-transform: capitalize;
 }
+
 .address-time {
   color: #070211;
   font-family: Inter;
@@ -213,9 +232,11 @@ main section {
   text-align: justify;
   margin-bottom: 165px;
 }
+
 .coming-soon-info {
   /* width: 800px; */
 }
+
 .coming-soon-subtitle {
   color: #f00;
   font-family: Inter;
@@ -223,6 +244,7 @@ main section {
   font-weight: 500;
   margin-bottom: 16px;
 }
+
 .coming-soon-title {
   color: #070211;
   font-family: Merriweather;
@@ -231,6 +253,7 @@ main section {
   text-transform: capitalize;
   margin-bottom: 22px;
 }
+
 .coming-soon-img img {
   width: 300px;
   height: 300px;
@@ -239,6 +262,7 @@ main section {
   border: 10px solid #f00;
   margin-bottom: 16px;
 }
+
 .coming-soon-year-title {
   color: #f00;
   font-family: Inter;
@@ -246,6 +270,7 @@ main section {
   font-weight: 700;
   margin-bottom: 16px;
 }
+
 /* Holidays Sale styles */
 .holidays-sale {
   width: 82%;
@@ -255,8 +280,9 @@ main section {
   margin: 0 auto;
   margin-bottom: 130px;
 }
-.holidays-item {
-}
+
+.holidays-item {}
+
 .holidays-subtitle {
   color: #070211;
   font-family: Inter;
@@ -264,6 +290,7 @@ main section {
   font-weight: 500;
   margin-bottom: 16px;
 }
+
 .holidays-title {
   color: #f00;
   text-align: center;
@@ -272,6 +299,7 @@ main section {
   font-weight: 900;
   margin-bottom: 28px;
 }
+
 .holidays-description {
   width: 1068px;
   text-align: center;
@@ -283,16 +311,73 @@ main section {
   font-weight: 500;
   line-height: 32px;
 }
+
+/* holidays img styles */
 .holidays-image-section {
-  display: flex;
+  max-width: 1320px;
+  width: 80%;
+  height: 300px;
+  height: 100vh;
+  margin: 0 auto;
+  background-image: url("../resources/Rectangle\ 2.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  justify-content: center;
+
+
+
 }
-.bg-image {
+
+.holidays-image-item {
+  display: flex;
+  
+  justify-content: center;
+
+}
+.img-1st{
+  height: 380px;
+  margin-top: 120px  ;
+
+}
+
+.img-3rd{
+  width: 450px;
+height: 433px;
+  background-image: url("../resources/Rectangle\ 1.png");
+  background-repeat: no-repeat;
+  
+  background-position: center bottom;
+  margin: 34px  ;
+}
+.img-2nd img{
+margin-left: 70%;
+}
+
+/* .holidays-image-section{
+ display: inline-block;
+  justify-content: space-around;
+  align-items: center;
+  height: 510px;
+  width: 80%;
+  max-width: 1320px;
+  margin: 0 auto;
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../resources/banner/Vectorrr.png");
+
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 120px;
+} */
+
+
+/* .bg-image {
   width: 80%;
   max-width: 1320px;
   background-image: url("../resources/Rectangle\ 2.png");
   background-repeat: no-repeat;
   margin: 0 auto;
-}
+} */
+
 /* Our-awesome-portfolio styles */
 .our-awesome-portfolio {
   width: 80%;
@@ -301,6 +386,7 @@ main section {
   padding: 140px;
   margin: 0 auto;
 }
+
 .portfolio-text-subtitle {
   color: #f00;
   font-family: Inter;
@@ -308,6 +394,7 @@ main section {
   font-weight: 500;
   margin-bottom: 16px;
 }
+
 .portfolio-text-title {
   color: #070211;
   font-family: Merriweather;
@@ -316,6 +403,7 @@ main section {
   text-transform: capitalize;
   margin-bottom: 22px;
 }
+
 .portfolio-text-description {
   width: 900px;
   color: rgba(7, 2, 17, 0.6);
@@ -324,12 +412,14 @@ main section {
   font-weight: 400;
   margin-bottom: 48px;
 }
+
 .awesome-portfolio-image-item-1st {
   display: flex;
   flex-direction: row;
   gap: 25px;
   margin-bottom: 24px;
 }
+
 /* Subscribe Newsletter styles */
 .subscribe-newsletter {
   width: 82%;
@@ -341,12 +431,15 @@ main section {
   margin: 0 auto;
   margin-bottom: 120px;
 }
+
 .subscribe-news-item {
   padding: 80px;
 }
+
 .subscribe-newsletter img {
   margin-bottom: 40px;
 }
+
 .subscribe-news-title {
   color: #070211;
   font-family: Merriweather;
@@ -355,6 +448,7 @@ main section {
   text-transform: capitalize;
   margin-bottom: 22px;
 }
+
 .subscribe-news-description {
   width: 896px;
   margin: 0 auto;
@@ -384,6 +478,7 @@ input {
   background: #f00;
   border: none;
 }
+
 #email {
   width: 400px;
   background: #fff;
@@ -394,6 +489,7 @@ input {
   font-weight: 400;
   border: none;
 }
+
 /* footer section styles */
 .footer-container {
   background-color: #070211;
@@ -415,6 +511,7 @@ input {
   font-weight: 500;
   width: 500px;
 }
+
 .footer-primary {
   color: #fff;
   font-family: Inter;
@@ -422,10 +519,16 @@ input {
   font-weight: 500;
   line-height: 30px;
 }
-.social-link {
+
+.social-link,
+a,
+img {
   /* display: block; */
   text-align: center;
+  margin-right: 20px;
+
 }
+
 hr {
   width: 80%;
   margin: 0 auto;
